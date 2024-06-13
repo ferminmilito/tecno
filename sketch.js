@@ -28,7 +28,7 @@ let gestorAmp;
 let gestorPitch;
 
 // IMPRIMIR
-let IMPRIMIR = true;
+let IMPRIMIR = false;
 
 // SETUP
 function setup() {
