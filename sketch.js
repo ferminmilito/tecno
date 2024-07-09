@@ -5,7 +5,7 @@ let amortiguacion = 0.9;
 let mic;
 
 // CONFIGURACION AMPLITUD
-let AMP_MIN = 0.005; // mínimo sonido que supera al del fondo
+let AMP_MIN = 0.0005; // mínimo sonido que supera al del fondo
 let AMP_MAX = 0.56; // máximo sonido que supera al del fondo
 
 let FREC_MIN =0;
