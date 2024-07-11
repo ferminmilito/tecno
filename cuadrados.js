@@ -84,6 +84,10 @@ class cuadrados {
         this.y3 = random(430, 470);
         this.x4 = random(280, 320);
         this.y4 = random(430, 470);
+        this.randomImage1 = Math.random() < 0.5 ? this.img1 : this.img2; 
+        this.randomImage2 = Math.random() < 0.5 ? this.img3 : this.img4;
+        this.randomImage3 = Math.random() < 0.5 ? this.img5 : this.img6;
+        this.randomImage4 = Math.random() < 0.5 ? this.img7 : this.img8;
         this.fondo.cambiar();
     }
 }
